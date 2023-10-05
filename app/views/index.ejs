@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="urf-8">
+        <link rel="stylesheet" href="/public/styles/style.css" type="text/css">
+    </head>
+    <body>
+        <div class="main">
+            <header>
+                <img src="/public/images/MLogo.png" class="logo">
+                <h1>Portfolio Page</h1>
+            </header>
+            
+            <div class="Elements">
+                <nav>
+                  <a href="/" class="navigation"  id="active">Home</a>
+                  <a href="/about" class="navigation">About Me</a>
+                  <a href="/projects" class="navigation">Projects</a>
+                  <a href="/services" class="navigation">Services</a>
+                  <a href="/contact" class="navigation">Contact</a>
+                </nav>
+            </div>
+            
+            <div class="personalinfo">
+                <img src="public/images/profilepic.jpg">
+                <p class="info">
+                    <label class="home"><strong>Name:</strong></label>Muhammed Ikbal Ekinci<br>
+                    <label class="home"><strong>Team:</strong></label>Solo<br>
+                    <label class="home"><strong>Phone:</strong></label>(437)299****<br>
+                    <label class="home"><strong>Fax:</strong></label>(989)-540-9622<br>
+                    <label class="home"><strong>Email:</strong></label>
+                    <a href="mailto:mekinci@my.centennialcollege.ca" style="color: black; text-decoration: none;">mekinci@my.centennialcollege.ca</a><br>
+                    <br><br>
+                    <label class="missionStatement"><strong>Mission Statement:</strong></label><br><br>
+                    <label class="missionStatement"><i>"Changing the world<br>with my work and dedication"</i></label>
+                </p>
+            </div>
+            <hr>
+            <fieldset>
+              <legend><h3>Review 1</h3></legend>
+              <div class="part1">
+                  <p class="reviewcontent">"Muhammad Ikbal's dedication and expertise in website development are truly commendable. The website he created is not only visually appealing but also incredibly functional. It's been a pleasure working with him!"<br><br> - Sami Patric</p>
+                  <p>Rating submitted<br>
+                  April 07, 2022</p>
+              </div>
+              <div class="part2">
+                  <ul class="reviewcontent">
+                  <li>Overall Rating - 5/5<br></li>
+                  <li>Responsiveness Rating - 5/5<br></li>
+                  <li>Knowledgeability Rating - 5/5<br></li>
+                  <li>Professionalism Rating - 5/5<br></li>
+                  <li>Usefulness of Website - N/A<br></li>
+                  <li>Value of Service - 5/5<br></li>
+                  </ul>
+              </div>
+          </fieldset>
+
+            <fieldset>
+                <legend><h3>Review 2</h3></legend>
+                <div class="part1">
+                    <p class="reviewcontent">Ikbal's attention to detail and commitment to delivering a top-notch website is outstanding. He consistently goes above and beyond to ensure that every aspect of the site is perfect. His work has exceeded our expectations.<br><br> - ujjwal alahabib</p>
+
+                    <p>Rating submitted<br>
+                    February 05, 2021</p>
+                </div>
+                <div class="part2">
+                    <ul class="reviewcontent">
+                    <li>Overall Rating - 5/5<br></li>
+                    <li>Responsiveness Rating - 5/5<br></li>
+                    <li>Knowledgeability Rating - 5/5<br></li>
+                    <li>Professionalism Rating - 5/5<br></li>
+                    <li>Usefulness of Website - 5/5<br></li>
+                    <li>Value of Service - 5/5<br></li>
+                    </ul>
+                </div>
+            </fieldset>
+            <br>
+            <%- include('../views/partials/footer.ejs/') %>
+        </div>
+    </body>
+</html>

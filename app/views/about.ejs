@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="urf-8">
+        <link rel="stylesheet" href="/public/styles/style.css" type="text/css">
+    </head>
+    <body>
+        <div class="main">
+            <header>
+                <img src="/public/images/MLogo.png" class="logo">
+                <h1>Portfolio Page</h1>
+            </header>
+            <div class="Elements">
+                <nav>
+                    <a href="/" class="navigation">Home</a>
+                    <a href="/about" id="active" class="navigation">About Me</a>
+                    <a href="/projects" class="navigation">Projects</a>
+                    <a href="/services" class="navigation">Services</a>
+                    <a href="/contact" class="navigation">Contact</a>
+                  </nav>
+            </div>
+            <div class="personalinfo">
+                <img src="/public/images/profilepic.jpg">
+                <p class="info">
+                    I am a social and outgoing individual with a deep passion for connecting with people from all walks of life. My life has been enriched by diverse experiences, and I thrive in social environments where I can build meaningful connections.<br><br>
+                    One of my greatest passions is sports, particularly football. I've spent four years playing the sport passionately, which not only kept me physically active but also taught me the values of teamwork, discipline, and determination. <br><br>
+                    Whether I'm on the field or cheering from the sidelines, sports bring out my competitive spirit and love for camaraderie
+
+                </p>
+            </div><br>
+            <hr>
+            <div class="smnc">
+                <a href="/public/images/Ekinci.pdf" target="_blank"><h5 class="link">Resume.pdf</h5></a>                
+            </div>
+            <br>
+            <%- include('../views/partials/footer.ejs/') %>
+        </div>
+    </body>
+</html>
