@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="urf-8">
+        <link rel="stylesheet" href="/public/styles/style.css" type="text/css">
+    </head>
+    <body>
+        <div class="main">
+            <header>
+                <img src="/public/images/MLogo.png" class="logo">
+                <h1>Portfolio Page</h1>
+            </header>
+            <div class="Elements">
+                                <nav>
+                    <a href="/" class="navigation">Home</a>
+                    <a href="/about" class="navigation">About Me</a>
+                    <a href="/projects" class="navigation">Projects</a>
+                    <a href="/services" id="active" class="navigation">Services</a>
+                    <a href="/contact" class="navigation">Contact</a>
+                  </nav>
+            </div>
+
+            <fieldset>
+                <legend><h3>Service 1</h3></legend>
+                <div class="prop">
+                    <img src="/public/images/service1.jpg"></a>
+                </div>
+                <div class="prop">
+                    <p class="info">
+                        <label class="home"><strong>Title:</strong></label>Web Application Development<br>
+                        <label class="home"><strong>Description:</strong></label>
+                        <br>
+                        If software engineering is your major, you might launch your own web development company. Some of the languages and programs that can be used to make websites that are both responsive and user-friendly include HTML, CSS, JavaScript, and well-known frameworks like React, Angular, or Django. You can create either a static website, a dynamic web application, or an e-commerce platform, depending on the requirements of your consumers.<br>
+                    </p>
+                </div>
+            </fieldset>
+            <fieldset style="height:400px">
+                <legend><h3>Service 2</h3></legend>
+                <div class="prop">
+                    <img src="/public/images/service2.jpg">
+                </div>
+                <div class="prop">
+                    <p class="info">
+                        <label class="home"><strong>Title:</strong></label>Mobile Application Development<br>
+                        <label class="home"><strong>Description:</strong></label>
+                        <br>
+                        The ability to offer app development services could prove to be rather appealing given the rise in mobile devices. While iOS apps can be developed using Swift or Objective-C, Android apps can be developed using Java or Kotlin. You can utilize your programming skills to create apps for mobile devices whether your interests are in productivity, entertainment, or utility.
+                        <br>
+                    </p>
+                </div>
+            </fieldset>
+            <fieldset style="height:425px">
+                <legend><h3>Service 3</h3></legend>
+                <div class="prop">
+                    <img src="/public/images/service3.jpg"></a>
+                </div>
+                <div class="prop">
+                    <p class="info">
+                        <label class="home"><strong>Title:</strong></label>Software Testing and Quality Assurance<br>
+                        <label class="home"><strong>Description:</strong></label>
+                        <br>
+                        Numerous companies and organizations put software programs through extensive testing to ensure that they are devoid of bugs, performant, and meet the necessary requirements. You may help clients uncover and repair software issues before making it available to the general public by offering them manual testing, automated testing, performance testing, and user acceptability testing, among other services. Their applications will therefore be of a greater calibre and reliability.
+                        <br>
+                    </p>
+                </div>
+            </fieldset>
+            <br>
+            <%- include('../views/partials/footer.ejs/') %>
+        </div>
+    </body>
+</html>
